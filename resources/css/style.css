@@ -6,10 +6,13 @@ body {
   opacity: 0.9;
 }
 
+/* Header */
+
 header {
   display: flex;
   width: 100%;
   height: 69px;
+  background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
   position: fixed;
@@ -35,13 +38,119 @@ nav span {
 
 a {
   text-decoration: underline;
-  color: white;
+  color: seashell;
 }
 
-.logo {
- margin-left: 10px;
-}
-
-.logo img {
+header img {
   height: 50px;
+  padding-left: 10px;
+}
+
+/* Main Content Container */
+
+.main-content-container {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission */
+
+#mission {
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+/* Tea of the Month */
+
+div#tea {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+#tea .content {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+}
+
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Locations */
+
+#locations {
+  height: 500px;
+  background-image: url(../images/img-locations-background.jpg);
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+h2, h5 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Contact */
+
+.contact {
+  height: 200px;
+}
+
+/* Footer */
+
+footer h5 {
+  text-align: left;
+  padding-left: 20px;
 }
